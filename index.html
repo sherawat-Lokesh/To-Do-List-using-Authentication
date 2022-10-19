@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <link rel="stylesheet" href="transition.css">
+    <script type="module" src="main.js"></script>
+</head>
+
+
+<body class="bg-[url('bg.jpg')] backdrop-blur-sm   flex items-center justify-center  mt-36">
+
+    <main id="swup" class="transition-fade">
+        <div class=" relative place-content-center  rounded-md bg-black p-20 py-20 pb-28 bg-opacity-80 space-y-8">
+
+            <h2 class="text-white font-serif text-3xl">Sign In</h2>
+            <div class="">
+                <input id="username" class="peer text-white  bg-zinc-700 focus:outline-none   pr-32 p-3 rounded-md"
+                    type="text" placeholder="Name">
+                    <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
+                        Please provide a valid username.
+                    </p>
+            </div>
+            <div>
+                <input id="password" class="text-white bg-zinc-700  focus:outline-none  pr-32 p-3 rounded-md"
+                    type="password" placeholder="password">
+            </div>
+            <div>
+                <button id="sign-in" style="padding-left:8.3rem ;padding-right:8.3rem" type="submit"
+                    class="text-white bg-transparent  bg-red-600   p-3 rounded-md font-medium ">Sign In</button>
+            </div>
+            <div class="flex">
+                <p class="text-zinc-600">New Here?&nbsp; </p>
+                <p> <a class="text-white" href="#">Sign up now</a></p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
