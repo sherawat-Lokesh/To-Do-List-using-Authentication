@@ -13,20 +13,28 @@
         style="width:35rem ;margin-right: 24rem;">
         <!-- navbar -->
         <nav class=" text-gray-500 flex space-x-10 not-italic justify-center items-center p-5 ">
-            <p class=" hover:underline underline-offset-4 decoration-4 decoration-pink-400 hover:text-white">Day</p>
-            <p class=" hover:underline underline-offset-4 decoration-4 decoration-pink-400 hover:text-white">Month</p>
-            <p class=" hover:underline underline-offset-4 decoration-4 decoration-pink-400 hover:text-white">Year</p>
+            <p
+                class=" hover:underline underline-offset-4 decoration-4 decoration-pink-400 cursor-pointer hover:text-white">
+                Day</p>
+            <p
+                class=" hover:underline underline-offset-4 decoration-4 decoration-pink-400 cursor-pointer hover:text-white">
+                Month</p>
+            <p
+                class=" hover:underline underline-offset-4 decoration-4 decoration-pink-400 cursor-pointer hover:text-white">
+                Year</p>
         </nav>
 
         <div class=" flex justify-center items-center text-gray-500 flex-col ">
-            <p class="show-date text-3xl "></p>
-            <input type="text"
-                class=" p-2 placeholder:italic focus:outline-none bg-slate-700 rounded-md w-80  mt-5 " name="search"
-                placeholder="Add a task...">
-            
+            <p class="show-day text-3xl text-white "></p>
+            <p class="show-date text-sm"></p>
+
+            <input type="text" maxlength="65"
+                class="search p-2 placeholder:italic focus:outline-none bg-slate-700 rounded-md w-80  mt-5 "
+                name="search" placeholder="Add a task...">
         </div>
-        <div class="container   flex justify-center items-center ">
-            hello
+        <div class="add-list ">
+
+
         </div>
 
     </div>

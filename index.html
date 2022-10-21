@@ -18,14 +18,17 @@
             <h2 class="text-white font-serif text-3xl">Sign In</h2>
             <div class="">
                 <input id="username" class="peer text-white  bg-zinc-700 focus:outline-none   pr-32 p-3 rounded-md"
-                    type="text" placeholder="Name">
-                    <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
-                        Please provide a valid username.
-                    </p>
+                    type="text" placeholder="Name" required>
+                <p class="mt-2 invisible peer-invalid:visible text-white text-sm">
+                    Please provide a username.
+                </p>
             </div>
             <div>
-                <input id="password" class="text-white bg-zinc-700  focus:outline-none  pr-32 p-3 rounded-md"
+                <input id="password" class="peer text-white bg-zinc-700  focus:outline-none  pr-32 p-3 rounded-md"
                     type="password" placeholder="password">
+                <p class="mt-2 invisible peer-required:visible text-pink-600 text-sm peer">
+                    Please enter password
+                </p>
             </div>
             <div>
                 <button id="sign-in" style="padding-left:8.3rem ;padding-right:8.3rem" type="submit"
