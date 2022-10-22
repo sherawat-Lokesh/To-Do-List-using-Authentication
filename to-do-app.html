@@ -2,10 +2,14 @@
 <html lang="en">
 
 <head>
-    <title>To do app</title>
-    <link rel="stylesheet" href="transition.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script type="module" src="to-do.js"></script>
+    <script src="./to-do.js" type="module"></script>
 </head>
 
 <body class=" bg-zinc-600 backdrop-blur-sm">
@@ -28,7 +32,7 @@
             <p class="show-day text-3xl text-white "></p>
             <p class="show-date text-sm"></p>
 
-            <input type="text" maxlength="65"
+            <input type="text" maxlength="60"
                 class="search p-2 placeholder:italic focus:outline-none bg-slate-700 rounded-md w-80  mt-5 "
                 name="search" placeholder="Add a task...">
         </div>
@@ -38,6 +42,7 @@
         </div>
 
     </div>
+
 
 </body>
 
